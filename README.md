@@ -55,15 +55,6 @@ Fine-tuned surprise models by experimenting with different hyperparameters for t
 
 Combination of different surprise model results by applying weighted linear combination to generate final rating.
 
-### 6. hybrid_model
-
-Code for the hybrid model based on combining recommendations from different models such as content based, CF, SVD to improve accuracy and quality of recommendations.
-
-### 7. cold_start_analysis
-
-Analyses the performance of different approaches in case of a new user or a user with less number of interaction with the system, namely the cold start problem. Computed the rmse and mae for those customers who have rated less than 18 books and also who have rated more than 1000 movies.
-For less interactions, content based and item-item based collaborative filtering approaches work better. As the number of interactions per customer increases, SVD and collaborative approaches work better.
-
 ## Results
 
 ![Hybrid model](Results/images/Hybrid_Model.png)
